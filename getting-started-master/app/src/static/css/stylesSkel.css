@@ -1,11 +1,11 @@
 body {
-    background-color: #370db5;
+    background-color: #f4f4f4;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
 .item {
-    background-color: rgb(252, 248, 13);
+    background-color: white;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
