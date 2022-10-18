@@ -1,21 +1,21 @@
 body {
-    background-color: #370db5;
+    background-color: #31326F;
     margin-top: 50px;
-    font-family: 'Lato';
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .item {
-    background-color: rgb(252, 248, 13);
+    background-color: #FFC93C;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
     box-shadow: 0 0 1em #ccc;
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 1em #DBF6E9;
 }
 
 .item.completed {
