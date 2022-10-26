@@ -1,0 +1,39 @@
+body {
+    background-color: #31326F;
+    margin-top: 50px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.item {
+    background-color: #FFC93C;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #ccc;
+    transition: all .5s ease-in-out;
+}
+
+.item:hover {
+    box-shadow: 0 0 1em #DBF6E9;
+}
+
+.item.completed {
+    text-decoration: line-through;
+}
+
+.toggles {
+    color: black;
+}
+
+.name {
+    padding-top: 3px;
+}
+
+.remove {
+    padding-left: 0;
+}
+
+button:focus {
+    border: 1px solid #333;
+}
