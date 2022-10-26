@@ -100,14 +100,14 @@ function AddItemForm({ onNewItem }) {
                     aria-describedby="basic-addon1"
                 />
                 <InputGroup.Append>
-                    <Button
+                    {/* <Button
                         type="submit"
                         variant="success"
                         disabled={!newItem.length}
                         className={submitting ? 'disabled' : ''}
                     >
                         {submitting ? 'Adding...' : 'Add'}
-                    </Button>
+                    </Button> */}
                 </InputGroup.Append>
             </InputGroup>
         </Form>
@@ -140,7 +140,7 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
         <Container fluid className={`item ${item.completed && 'completed'}`}>
             <Row>
                 <Col xs={1} className="text-center">
-                    <Button
+                    {/* <Button
                         className="toggles"
                         size="sm"
                         variant="link"
@@ -156,20 +156,20 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
                                 item.completed ? 'fa-check-square' : 'fa-square'
                             }`}
                         />
-                    </Button>
+                    </Button> */}
                 </Col>
                 <Col xs={10} className="name">
                     {item.name}
                 </Col>
                 <Col xs={1} className="text-center remove">
-                    <Button
+                    {/* <Button
                         size="sm"
                         variant="link"
                         onClick={removeItem}
                         aria-label="Remove Item"
                     >
                         <i className="fa fa-trash text-danger" />
-                    </Button>
+                    </Button> */}
                 </Col>
             </Row>
         </Container>
